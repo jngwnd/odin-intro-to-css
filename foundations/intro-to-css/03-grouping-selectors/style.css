@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+*, *::before, *::after {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+.black,
+.yellow {
+    font: 28px Helvetica, 'Times New Roman', sans-serif;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
