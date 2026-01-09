@@ -24,3 +24,34 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin: 32px auto;
+}
+
+.plant-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  gap: 8px;
+}
+
+.text {
+  text-align: center;
+}
